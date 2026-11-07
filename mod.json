@@ -1,0 +1,9 @@
+{
+  "name": "Dwindle tiling",
+  "summary": "Tile like the Caelestia install (dwindle splits) and send each tiled window past a per-workspace cap to the next workspace. Edit config.lua to change the cap.",
+  "order": 80,
+  "hub": [
+    { "path": "desktop.appearance.layout", "on": "dwindle", "off": "scrolling" }
+  ],
+  "lua": ["tile.lua"]
+}
